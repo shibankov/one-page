@@ -1,140 +1,839 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Lsis Page</title>
-  <link href="assets/css/vendors.a5171a4e23912bf0e0d4.css" rel="stylesheet" />
-  <link href="assets/css/app.83b96a57bd7e0a4bdbaf.css" rel="stylesheet" />
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TestOnlineBees</title>
+<link href="/css/common.css" rel="stylesheet"></head>
 <body>
-<div id="app">
-  <div class="content">
-    <div class="head">
-      <div class="head-title">
-        <h1>
-          Преобразователи частоты LSIS из наличия.<br />
-          <span>Доставка с нашего склада по всей России.</span>
-        </h1>
-      </div>
-      <div class="head-contact">
-        <div class="head-contact__text">Поможем с выбором, решение проблем, запчасти</div>
-        <a href="index.html" class="head-contact__number">+7 911 976 68 48</a>
-      </div>
-    </div>
-    <div class="converters">
-      <div class="converters__col">
-        <a href="index.html" class="converters__col-link"></a>
-        <div class="converters__col-body">
-          <h2 class="converters__col-title">Общепромышленные преобразователи</h2>
-          <div class="converters__col-text-wrapper">
-            <div class="converters__col-text">Для механизмов, приводов, конвейеров, упаковщиков, мельниц, компрессоров.</div>
-            <div class="converters__col-tag">
-              <div class="converters__col-tag-item">Векторное и скалярное управление</div>
-              <div class="converters__col-tag-item">Обратная связь</div>
-              <div class="converters__col-tag-item">ПИД</div>
-              <div class="converters__col-tag-item">Перегрузка 150%</div>
+<!-- TestOnlineBees begin -->
+  <div id="app">
+    <header class="header container">
+      <div class="header-top">
+        <a href="index.html" class="header__logo">
+          <svg>
+            <use xlink:href="#header-logo"></use>
+          </svg>
+        </a>
+        <div class="header__search">
+          <div class="search">
+            <input type="text" class="search__placeholder" placeholder="Поиск товара">
+            <div class="search__icon">
+              <svg>
+                <use xlink:href="#search-icon"></use>
+              </svg>
             </div>
           </div>
-          <a href="index.html" class="converters__col-btn">Смотреть позиции →</a>
         </div>
-        <div class="converters__col-img"><img src="assets/img/converters-1.png" alt="converters-img" /></div>
-      </div>
-      <div class="converters__col">
-        <a href="index.html" class="converters__col-link"></a>
-        <div class="converters__col-body">
-          <h2 class="converters__col-title">Насосные преобразователи</h2>
-          <div class="converters__col-text-wrapper">
-            <div class="converters__col-text">Для насосов и вентиляторов</div>
-            <div class="converters__col-tag">
-              <div class="converters__col-tag-item">Скалярное управление</div>
-              <div class="converters__col-tag-item">Решения для групп насосов</div>
-              <div class="converters__col-tag-item">ПИД</div>
-              <div class="converters__col-tag-item">Перегрузка 120%</div>
-            </div>
+        <div class="header__contacts">
+          <a href="tel:+7 987 654-32-10" class="header__contacts-phone">
+            +7 987 654-32-10
+          </a>
+          <div class="header__contacts-regime">
+            Ежедневно с 09:00 – 20:00
           </div>
-          <a href="index.html" class="converters__col-btn">Смотреть позиции →</a>
         </div>
-        <div class="converters__col-img"><img src="assets/img/converters-2.png" alt="converters-img" /></div>
       </div>
-      <div class="converters__col">
-        <a href="index.html" class="converters__col-link"></a>
-        <div class="converters__col-body">
-          <h2 class="converters__col-title">Лифтовые преобразователи</h2>
-          <div class="converters__col-text-wrapper">
-            <div class="converters__col-text">Для лифтов, кранов, подъемников</div>
-            <div class="converters__col-tag">
-              <div class="converters__col-tag-item">Векторное управление</div>
-              <div class="converters__col-tag-item">Векторное управление с датчиком</div>
-              <div class="converters__col-tag-item">Перегрузка 200%</div>
-            </div>
+      <div class="header-bottom">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li>
+              <a href="/" class="menu__link-burger menu__link ">
+                <svg class="burger-icon">
+                  <use xlink:href="#burger-icon"></use>
+                </svg>
+                Вся мебель
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Выставочные залы
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                О нас
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Новости
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Отзывы
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="dropdown-menu">
+          <ul class="dropdown-menu__list">
+            <li>
+              <a href="/" class="dropdown-menu__link">
+                <span class="dropdown-menu__link-icon">
+                  <svg class="header-drop-menu-icon">
+                    <use xlink:href="#header-drop-menu-icon"></use>
+                  </svg>
+                </span>
+                Мягкая мебель
+              </a>
+            </li>
+            <li>
+              <a href="/" class="dropdown-menu__link">
+                <span class="dropdown-menu__link-icon">
+                  <svg class="header-drop-menu-icon">
+                    <use xlink:href="#header-drop-menu-icon2"></use>
+                  </svg>
+                </span>
+                Для прихожей
+              </a>
+            </li>
+            <li>
+              <a href="/" class="dropdown-menu__link">
+                 <span class="dropdown-menu__link-icon">
+                   <svg class="header-drop-menu-icon">
+                    <use xlink:href="#header-drop-menu-icon3"></use>
+                   </svg>
+                </span>
+                Кухонная мебель
+              </a>
+            </li>
+            <li>
+              <a href="/" class="dropdown-menu__link">
+                <span class="dropdown-menu__link-icon">
+                  <svg class="header-drop-menu-icon">
+                    <use xlink:href="#header-drop-menu-icon4"></use>
+                   </svg>
+                </span>
+                Для гостиных
+              </a>
+            </li>
+            <li>
+              <a href="/" class="dropdown-menu__link">
+                <span class="dropdown-menu__link-icon">
+                  <svg class="header-drop-menu-icon">
+                    <use xlink:href="#header-drop-menu-icon5"></use>
+                  </svg>
+                </span>
+                Столы
+              </a>
+            </li>
+            <li>
+              <a href="/" class="dropdown-menu__link">
+                <span class="dropdown-menu__link-icon">
+                  <svg class="header-drop-menu-icon">
+                    <use xlink:href="#header-drop-menu-icon6"></use>
+                  </svg>
+                </span>
+                Шкафы
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="header-mob">
+      <div class="header-mob__row">
+        <div class="header-mob__col">
+          <a href="/" class="header-mob__burger">
+            <svg class="burger-icon">
+              <use xlink:href="#burger-icon-mob"></use>
+            </svg>
+          </a>
+          <a href="/" class="header-mob__logo">
+            <svg class="header-mob-logo">
+              <use xlink:href="#header-mob-logo"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="header-mob__col">
+          <div class="header-mob__search">
+            <svg>
+              <use xlink:href="#search-mob-icon"></use>
+            </svg>
           </div>
-          <a href="index.html" class="converters__col-btn">Смотреть позиции →</a>
+          <a href="tel:+7 987 654-32-10" class="header-mob__phone">
+            <svg>
+              <use xlink:href="#phone-mob-icon"></use>
+            </svg>
+          </a>
         </div>
-        <div class="converters__col-img"><img src="assets/img/converters-3.png" alt="converters-img" /></div>
       </div>
-      <div class="converters__col">
-        <a href="index.html" class="converters__col-link"></a>
-        <div class="converters__col-body">
-          <h2 class="converters__col-title">Опции для преобразователей</h2>
-          <div class="converters__col-text">Платы расширения, платы энкодера, тормозные реле, резисторы, фильтры, дроссели.</div>
-          <a href="index.html" class="converters__col-btn">Смотреть позиции →</a>
+      <div class="dropdown-mob">
+        <div class="dropdown-mob__header">
+          <a href="/" class="dropdown-mob__logo">
+            <svg class="header-mob-logo">
+              <use xlink:href="#header-mob-logo2"></use>
+            </svg>
+          </a>
+          <a href="/" class="dropdown-mob__close-icon">
+            <svg class="close-icon">
+              <use xlink:href="#close-icon"></use>
+            </svg>
+          </a>
         </div>
-        <div class="converters__col-img"><img src="assets/img/converters-4.png" alt="converters-img" /></div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li>
+              <a href="/" class="menu__link">
+                Вся мебель
+              </a>
+              <ul class="submenu">
+                <li>
+                  <a href="/" class="submenu__link">
+                    <span class="submenu__link-icon">
+                      <svg class="header-drop-menu-icon-mob">
+                        <use xlink:href="#header-drop-menu-icon"></use>
+                      </svg>
+                    </span>
+                    Мягкая мебель
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="submenu__link">
+                    <span class="submenu__link-icon">
+                      <svg class="header-drop-menu-icon-mob">
+                        <use xlink:href="#header-drop-menu-icon2"></use>
+                      </svg>
+                    </span>
+                    Для прихожей
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="submenu__link">
+                    <span class="submenu__link-icon">
+                      <svg class="header-drop-menu-icon-mob">
+                        <use xlink:href="#header-drop-menu-icon3"></use>
+                      </svg>
+                    </span>
+                    Кухонная мебель
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="submenu__link">
+                    <span class="submenu__link-icon">
+                      <svg class="header-drop-menu-icon-mob">
+                        <use xlink:href="#header-drop-menu-icon4"></use>
+                      </svg>
+                    </span>
+                    Для гостиных
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="submenu__link">
+                    <span class="submenu__link-icon">
+                      <svg class="header-drop-menu-icon-mob">
+                        <use xlink:href="#header-drop-menu-icon5"></use>
+                      </svg>
+                    </span>
+                    Столы
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="submenu__link">
+                    <span class="submenu__link-icon">
+                      <svg class="header-drop-menu-icon-mob">
+                        <use xlink:href="#header-drop-menu-icon6"></use>
+                      </svg>
+                    </span>
+                    Шкафы
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Выставочные залы
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                О нас
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Новости
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Отзывы
+              </a>
+            </li>
+            <li>
+              <a href="/" class="menu__link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="dropdown-mob__footer">
+          <a href="tel:+7 987 654-32-10" class="dropdown-mob__phone">
+            +7 987 654-32-10
+          </a>
+          <div class="dropdown-mob__regime">
+            Ежедневно с 09:00 – 20:00
+          </div>
+          <a href="mailto:example@example.ru" class="dropdown-mob__mail">
+            example@example.ru
+          </a>
+
+          <div class="dropdown-mob__social-network">
+            <a href="/" class="dropdown-mob__social-network-item">
+              <svg class="inst-icon">
+                <use xlink:href="#inst-icon"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="conditions">
-      <div class="conditions__col">
-        <div class="conditions__col-img">
-          <svg width="60" height="54" viewBox="0 0 60 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M47.4004 54L27.4735 48.6287L20.0035 53.7907L0 48.3989L0.267611 28.876L13.079 20.5852L16.4313 21.4962L16.8284 5.89363L33.9347 0L48.3201 8.42332L48.5244 22.9812L59.4446 25.9483L60 45.7016L47.4004 54ZM45.0144 48.7964L44.9292 36.3138L31.6103 33.1017L31.5182 45.2325L45.0144 48.7964ZM24.855 29.9489L21.5539 27.9814L15.3367 32.1432L19.3324 33.277L24.855 29.9489ZM4.01531 45.0232L18.7241 49.1505L18.6389 36.6679L13.613 35.3618L13.3742 41.3656L8.72295 39.9709L9.01819 34.1681L4.10739 32.8919L4.01531 45.0232ZM17.4505 25.5361L13.9888 24.7177L5.97376 29.4875L10.4944 30.7702L17.9023 25.8052L17.4505 25.5361ZM20.1082 22.5632L30.0662 28.6609V16.6708L26.6413 14.9208L26.639 20.4908L22.9224 18.1903L22.8442 12.9797L20.1352 11.5955L20.1082 22.5632ZM33.4824 3.62247L21.3927 7.85114L23.9963 9.13152L36.0054 5.01424L33.4824 3.62247ZM40.8005 7.65826L28.7747 11.4806L31.6661 12.9023L43.5555 9.17783L40.8005 7.65826ZM53.7327 29.5754L47.3492 27.8518L42.0206 29.5725L50.5364 31.411L50.8592 39.0646L53.8133 37.1645L53.7327 29.5754Z"
-              fill="#1D87D3"
-            />
-          </svg>
+    <div class="content container">
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li>
+            <a href="/" class="breadcrumbs__link">
+              Главная
+            </a>
+          </li>
+          <li>
+            <a href="/" class="breadcrumbs__link active">
+              Мягкая мебель
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="catalog">
+        <div class="catalog__title">
+          Мягкая мебель
         </div>
-        <div class="conditions__col-body">
-          <h3 class="conditions__col-title">Все товары на складе</h3>
-          <div class="conditions__col-text">Утром деньги — вечером частотник! Мы продаем частотники только из наличия на складе в Санкт-Петербурге.</div>
+        <div class="catalog__wrapper">
+          <div class="sidebar">
+            <div class="sidebar-mob__header">
+              <div class="sidebar-mob__header-arrow">
+                <svg class="drop-arrow-icon">
+                  <use xlink:href="#drop-arrow-icon"></use>
+                </svg>
+              </div>
+              <div class="sidebar-mob__header-title">
+                Мягкая мебель
+              </div>
+              <a href="/" class="sidebar-mob__close-icon">
+                <svg class="close-icon">
+                  <use xlink:href="#sidebar-close-icon"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="sidebar__categories categories sidebar__row">
+              <div class="categories__title sidebar__col-title">
+                Категория
+                <div class="sidebar__col-title-arrow">
+                  <svg class="drop-arrow-icon">
+                    <use xlink:href="#drop-arrow-icon"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="categories__body sidebar__col-body">
+                <div class="categories__list-title">
+                  Мягкая мебель
+                </div>
+                <nav>
+                  <ul class="categories__list">
+                    <li>
+                      <a href="/" class="categories__list-link">
+                        Кресла-мешки
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/" class="categories__list-link">
+                        Компьютерные кресла
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/" class="categories__list-link">
+                        Кресла
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/" class="categories__list-link">
+                        Пуфики и банкетки
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/" class="categories__list-link">
+                        Кровати и матрасы
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/" class="categories__list-link">
+                        Диваны
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/" class="categories__list-link">
+                        Комплекты мягкой мебели
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="sidebar__price price range sidebar__row">
+              <div class="price__title range__title sidebar__col-title">
+                Цена
+                <div class="sidebar__col-title-arrow">
+                  <svg class="drop-arrow-icon">
+                    <use xlink:href="#drop-arrow-icon"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="price__body sidebar__col-body">
+                <div class="range__range-input">
+                  <input type="range" min="50" max="100" value="100" step="1" id="priceRange">
+                  <input type="range" min="50" max="100" value="0" step="1" id="priceRange2">
+                </div>
+                <div class="range__output">
+                  <div class="range__output-item">
+                    до&nbsp;<span>343 342</span>
+                  </div>
+                  <div class="range__output-item">
+                    до&nbsp;<span>343 342</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__discount discount ">
+              <div class="discount__title sidebar__col-title">
+                Товары со скидкой
+                <label class="discount__switch switch-input">
+                  <input type="checkbox">
+                  <span class="slider-input"></span>
+                </label>
+              </div>
+            </div>
+            <div class="sidebar__materials materials sidebar__row">
+              <div class="materials__title sidebar__col-title">
+                Материалы
+                <div class="sidebar__col-title-arrow">
+                  <svg class="drop-arrow-icon">
+                    <use xlink:href="#drop-arrow-icon"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="materials__body sidebar__col-body">
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox" checked="checked" id="checkbox1">
+                    <label for="checkbox1">
+                      ABS пластик
+                    </label>
+                  </div>
+                </div>
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox"  id="checkbox2">
+                    <label for="checkbox2">
+                      Amicor TM
+                    </label>
+                  </div>
+                </div>
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox" id="checkbox3">
+                    <label for="checkbox3">
+                      Eco Foam
+                    </label>
+                  </div>
+                </div>
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox" id="checkbox4">
+                    <label for="checkbox4">
+                      PLA пластик
+                    </label>
+                  </div>
+                </div>
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox" checked="checked" id="checkbox5">
+                    <label for="checkbox5">
+                      Акрил
+                    </label>
+                  </div>
+                </div>
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox"  id="checkbox6">
+                    <label for="checkbox6">
+                      Алюминиевый сплав
+                    </label>
+                  </div>
+                </div>
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox" id="checkbox7">
+                    <label for="checkbox7">
+                      Алюминий
+                    </label>
+                  </div>
+                </div>
+                <div class="materials__item">
+                  <div class="checkbox-custom">
+                    <input type="checkbox" id="checkbox8">
+                    <label for="checkbox8">
+                      Бамбук
+                    </label>
+                  </div>
+                </div>
+                <a href="/" class="materials__link-all">
+                  Показать все
+                </a>
+              </div>
+            </div>
+            <div class="sidebar__height height range sidebar__row">
+              <div class="height__title range__title sidebar__col-title">
+                Высота, см
+                <div class="sidebar__col-title-arrow">
+                  <svg class="drop-arrow-icon">
+                    <use xlink:href="#drop-arrow-icon"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="height__body sidebar__col-body">
+                <div class="range__range-input">
+                  <input type="range" min="50" max="100" value="100" step="1" id="priceRange">
+                  <input type="range" min="50" max="100" value="0" step="1" id="priceRange2">
+                </div>
+                <div class="range__output">
+                  <div class="range__output-item">
+                    до&nbsp;<span>1</span>
+                  </div>
+                  <div class="range__output-item">
+                    до&nbsp;<span>240</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__width width range sidebar__row">
+              <div class="width__title range__title sidebar__col-title">
+                Длина, см
+                <div class="sidebar__col-title-arrow">
+                  <svg class="drop-arrow-icon">
+                    <use xlink:href="#drop-arrow-icon"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="width__body sidebar__col-body">
+                <div class="range__range-input">
+                  <input type="range" min="50" max="100" value="100" step="1" id="priceRange">
+                  <input type="range" min="50" max="100" value="0" step="1" id="priceRange2">
+                </div>
+                <div class="range__output">
+                  <div class="range__output-item">
+                    до&nbsp;<span>400</span>
+                  </div>
+                  <div class="range__output-item">
+                    до&nbsp;<span>2000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__body">
+            <div class="filter">
+              <div class="filter__item">
+                <div class="filter__item-text">
+                  Материалы: Eco Foam
+                </div>
+                <a href="/" class="filter__item-icon">
+                  <svg class="close-icon">
+                    <use xlink:href="#close-icon"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="filter__item">
+                <div class="filter__item-text">
+                  Цвет: Бирюзовый
+                </div>
+                <a href="/" class="filter__item-icon">
+                  <svg class="close-icon">
+                    <use xlink:href="#close-icon"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="filter__item">
+                <div class="filter__item-text">
+                  Длина, см: от 400 до 2000
+                </div>
+                <a href="/" class="filter__item-icon">
+                  <svg class="close-icon">
+                    <use xlink:href="#close-icon"></use>
+                  </svg>
+                </a>
+              </div>
+              <a href="/" class="filter__link-all">
+                Очистить все
+              </a>
+            </div>
+            <div class="sidebar__mob-row">
+              <div class="sidebar__mob-row-icon">
+                <svg class="filter-icon">
+                  <use xlink:href="#filter-icon"></use>
+                </svg>
+              </div>
+              Фильтр
+            </div>
+            <div class="catalog__row">
+              <div class="catalog__col">
+                <div class="catalog__col-image">
+                  <img src="/img/catalog__catalogDivan.png" alt="img">
+                </div>
+                <div class="catalog__col-body">
+                  <div class="catalog__col-text">
+                    Диван-кровать Вилли 
+Рогожка, розовый
+                  </div>
+                  <div class="catalog__col-price">
+                    <span>4234&nbsp;₽</span>
+                    <span class="catalog__col-price-old">21&nbsp;000&nbsp;₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__col">
+                <div class="catalog__col-image">
+                  <img src="/img/catalog__catalogDivan2.png" alt="img">                </div>
+                <div class="catalog__col-body">
+                  <div class="catalog__col-text">
+                    Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж
+                  </div>
+                  <div class="catalog__col-price">
+                    <span>12&nbsp;244&nbsp;₽</span>
+                    <span class="catalog__col-price-old">21&nbsp;000&nbsp;₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__col">
+                <div class="catalog__col-image">
+                  <img src="/img/catalog__catalogDivan3.png" alt="img">
+                </div>
+                <div class="catalog__col-body">
+                  <div class="catalog__col-text">
+                    Диван-кровать Бит-2 Латте
+                  </div>
+                  <div class="catalog__col-price">
+                    <span>7000&nbsp;₽</span>
+                    <span class="catalog__col-price-old">21&nbsp;000&nbsp;₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__col">
+                <div class="catalog__col-image">
+                  <img src="/img/catalog__catalogDivan4.png" alt="img">
+                </div>
+                <div class="catalog__col-body">
+                  <div class="catalog__col-text">
+                    Диван-кровать Вилли 
+Рогожка, розовый
+                  </div>
+                  <div class="catalog__col-price">
+                    <span>4234&nbsp;₽</span>
+                    <span class="catalog__col-price-old">21&nbsp;000&nbsp;₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__col">
+                <div class="catalog__col-image">
+                  <img src="/img/catalog__catalogDivan2.png" alt="img">
+                </div>
+                <div class="catalog__col-body">
+                  <div class="catalog__col-text">
+                    Диван-кровать Вилли 
+Рогожка, розовый
+                  </div>
+                  <div class="catalog__col-price">
+                    <span>4234&nbsp&nbsp;₽</span>
+                    <span class="catalog__col-price-old">21&nbsp;000&nbsp;₽</span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__col">
+                <div class="catalog__col-image">
+                  <img src="/img/catalog__catalogDivan3.png" alt="img">
+                </div>
+                <div class="catalog__col-body">
+                  <div class="catalog__col-text">
+                    Диван-кровать Вилли 
+Рогожка, розовый
+                  </div>
+                  <div class="catalog__col-price">
+                    <span>4234&nbsp;₽</span>
+                    <span class="catalog__col-price-old">21&nbsp;000&nbsp;₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="conditions__col">
-        <div class="conditions__col-img">
-          <svg width="46" height="54" viewBox="0 0 46 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M28.5175 54L0 49.0571L5.69928 0L46 5.68776L41.6685 44.1897L28.5175 54ZM8.53777 3.98456L3.99631 46.1121L25.5656 50.0966L27.268 39.2805L38.6207 40.4137L42.026 8.53351L8.53777 3.98456ZM33.5223 17.1382L34.0612 13.1399L38.1195 13.7143L37.6115 17.7413L33.5223 17.1382ZM36.6067 25.7054L32.458 25.0343L33.0515 20.6333L37.1816 21.1446L36.6067 25.7054ZM35.5877 33.7775L31.364 33.1538L31.9686 28.6679L36.165 29.1986L35.5877 33.7775ZM24.8123 15.8533L25.4151 11.9156L31.7722 12.8153L31.0902 16.7792L24.8123 15.8533ZM29.7471 24.596L23.6272 23.6058L24.2486 19.5438L30.4831 20.3161L29.7471 24.596ZM28.3521 32.7099L22.3703 31.8271L23.0263 27.5372L29.1091 28.3064L28.3521 32.7099ZM11.6736 13.9147L12.0664 10.0251L22.6106 11.5185L22.0128 15.4406L11.6736 13.9147ZM20.8389 23.1537L10.9042 21.5461L11.2685 17.9349L21.4417 19.1954L20.8389 23.1537ZM19.5807 31.4157L10.0499 30.0096L10.46 25.9495L20.2256 27.1845L19.5807 31.4157Z"
-              fill="#1D87D3"
-            />
-          </svg>
+      <div class="about-company">
+        <div class="about-company__title">
+          Мягкая мебель
         </div>
-        <div class="conditions__col-body">
-          <h3 class="conditions__col-title">Физлица и юрлица</h3>
-          <div class="conditions__col-text">Работаем с юридическими и физическими лицами. Оплата по счету или квитанции.</div>
-        </div>
-      </div>
-      <div class="conditions__col">
-        <div class="conditions__col-img">
-          <svg width="75" height="54" viewBox="0 0 75 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M74.959 52L64.0973 51.8154C52.3481 48.1791 23.129 47.3636 10.9283 51.6871L0.0923519 51.9385L0 48.2714H1.56485L0.877343 28.4076L11.8518 27.4947C13.0335 29.407 14.6382 31.0228 16.5426 32.2178C18.4469 33.4128 20.6001 34.1552 22.8366 34.3878L22.6262 36.5778L11.5902 36.6137L11.6671 37.2086L11.6363 48.0149C12.2725 47.8406 12.9447 47.6816 13.6476 47.5328L13.781 38.3985L16.6439 38.4293L16.7157 46.9687C17.5212 46.8456 18.3575 46.7276 19.2195 46.625L19.4144 38.46L22.2363 38.4908L22.5749 46.2865C23.796 46.184 25.0479 46.0985 26.3305 46.0301L26.151 36.2854H24.7965L24.6066 34.3057L30.0554 31.1156L29.8091 23.1506L32.9953 23.2481L33.0671 29.3667L35.6324 27.8742L35.5042 23.325L38.6852 23.4225L38.7365 27.7563L41.5994 29.2949L41.4301 23.5353L44.6111 23.6327L44.6881 30.9105L50.6191 34.0493L50.3677 36.2957H48.9465L48.6797 46.3943C50.0137 46.49 51.3203 46.6028 52.5995 46.7327L52.774 39.255H55.6369L55.9704 47.0764C56.7964 47.1789 57.6122 47.2815 58.3972 47.3892L58.351 39.2858L61.1883 39.3165L61.1575 47.8149C61.9117 47.9431 62.63 48.0714 63.3277 48.2047L63.5535 39.3422L63.6458 36.7778L52.6765 36.8291L52.502 34.7776C56.191 34.4955 62.0502 33.0953 64.3026 28.4128L73.1222 29.1308L72.7322 48.1585L75 48.097L74.959 52ZM31.5382 36.3008L31.5997 45.1377H34.8782L35.2169 36.3111L31.5382 36.3008ZM40.0705 36.3008L40.2808 45.1172H43.5285L43.5901 36.3111L40.0705 36.3008ZM35.4529 12.4264L36.5457 6.51288L37.8797 6L38.9417 12.4315C42.251 13.1598 45.1344 15.9909 45.1344 20.935L29.2961 20.8068C29.2961 15.9344 32.1692 13.1444 35.4529 12.4264Z"
-              fill="#1D87D3"
-            />
-          </svg>
-        </div>
-        <div class="conditions__col-body">
-          <h3 class="conditions__col-title">Склад в Санкт-Петербурге</h3>
-          <div class="conditions__col-text">Если вы в другом городе — не проблема. Соберем для вас заказ и отправим удобным вам способом.</div>
+        <div class="about-company__text">
+          <p>
+            Наша компания организует оптовые поставки любой сложности. Мы изготовим и доставим заказ согласно вашему требованию и предподчениям.
+          </p>
+          <p>
+            Мы несём полную ответственнсть за качество и сроки поставки. Опираясь на наш опыт ,мы можем организовать сделку любой сложности.  Мы стремимся удовлетворить спрос самого взыскательного покупателя, поэтому модельный ряд нашей продукции ежегодно пополняется новыми моделями.
+          </p>
+          <p>
+            Благодаря передовым технологиям и оригинальным дизайнерским решениям мы стали признанным лидером 
+в производстве корпусной мебели для дома и офиса.
+          </p>
+          <p>
+            Наша компания регулярно участвует в мебельных выставках.
+          </p>
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="footer-top container">
+        <div class="footer__company footer__col">
+          <a href="/" class="footer__logo">
+            <svg class="footer-logo">
+              <use xlink:href="#footer-logo"></use>
+            </svg>
+          </a>
+          <div class="footer__address">
+            Россия, г. Рузаевка, 
+ул. Карла Маркса, 16-г,
+          </div>
+          <a href="/" class="footer__confid-link">
+            Политика конфиденциальности
+          </a>
+        </div>
+        <div class="footer__catalog footer__col">
+          <div class="footer__catalog-title footer__col-title">
+            Каталог
+          </div>
+          <div class="footer__catalog-row">
+            <nav>
+              <ul class="footer__catalog-list">
+                <li>
+                  <a href="/" class="footer__catalog-link">
+                    Мягкая мебель
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="footer__catalog-link">
+                    Кухонная мебель
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="footer__catalog-link">
+                    Для гостиных
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav>
+              <ul class="footer__catalog-list">
+                <li>
+                  <a href="/" class="footer__catalog-link">
+                    Для прихожей
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="footer__catalog-link">
+                    Столы
+                  </a>
+                </li>
+                <li>
+                  <a href="/" class="footer__catalog-link">
+                    Шкафы
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer__magazine footer__col">
+          <div class="footer__magazine-title footer__col-title">
+            Магазин
+          </div>
+          <nav>
+            <ul class="footer__magazine-list">
+              <li>
+                <a href="/" class="footer__magazine-link">
+                  Выставочные залы
+                </a>
+              </li>
+              <li>
+                <a href="/" class="footer__magazine-link">
+                  О нас
+                </a>
+              </li>
+              <li>
+                <a href="/" class="footer__magazine-link">
+                  Новости
+                </a>
+              </li>
+              <li>
+                <a href="/" class="footer__magazine-link">
+                  Отзывы
+                </a>
+              </li>
+              <li>
+                <a href="/" class="footer__magazine-link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__contacts footer__col">
+          <a href="tel:+7 987 654-32-10" class="footer__contacts-phone">
+            +7 987 654-32-10
+          </a>
+          <div class="footer__contacts-regime">
+            Ежедневно с 09:00 – 20:00
+          </div>
+          <a href="mailto:example@example.ru" class="footer__contacts-mail">
+            example@example.ru
+          </a>
+          <div class="footer__social-network">
+            <a href="" class="footer__social-network-item">
+              <svg class="inst-icon">
+                <use xlink:href="#inst-icon"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom container">
+        <div class="footer__copyright">
+          Точно Мебель — магазин мебели, 2020
+        </div>
+        <div class="footer__developer">
+          Сделано&nbsp;в&nbsp;
+          <a href="/" class="footer__developer-link">
+            OnlineBees
+          </a>
+
+        </div>
+      </div>
+    </footer>
   </div>
-</div>
-</body>
+
+
+<!-- TestOnlineBees end -->
+<script type="text/javascript" src="/js/common.js"></script></body>
 </html>
